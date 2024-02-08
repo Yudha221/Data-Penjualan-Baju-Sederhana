@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD Application</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h2>Data Penjualan Baju di Yun's Collection</h2>
+    <form id="itemForm">
+      <input type="text" id="itemName" placeholder="Nama Item" />
+      <input type="number" id="quantity" placeholder="Banyak Barang" />
+      <input type="text" id="price" placeholder="Harga" />
+      <button type="button" id="addItemBtn">Add Item</button>
+    </form>
+    <table id="itemTable">
+      <thead>
+        <tr>
+          <th>Nama Item</th>
+          <th>Banyak Barang</th>
+          <th>Harga</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="itemList">
+        <!-- Item rows will be dynamically added here -->
+      </tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
